@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.example.demo.controller;
+=======
+package com.example.GTICS-LAB4-20192663.controller;
+>>>>>>> P1
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -13,6 +17,7 @@ public class HomeController {
         return "hola";
     }
 
+<<<<<<< HEAD
     @GetMapping("/patito")
     public String formularioPatito(Model model){
         Patito patito3 = new Patito();
@@ -25,6 +30,14 @@ public class HomeController {
     //    Persona persona3 = new Persona();
     //    model.addAttribute("persona", persona3);
     //    return "formulario";
+=======
+    @GetMapping("/RecursosHumanos–GTICS")
+    public String Ver_Paciente() {
+        return "Recursos_Humanos_GTICS";
+    }
+
+
+>>>>>>> P1
     }
 
 

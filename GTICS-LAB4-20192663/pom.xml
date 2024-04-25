@@ -9,10 +9,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>GTICS-LAB4-20192663></artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webapp</name>
     <description>webapp</description>
+=======
+    <artifactId>GTICS-LAB-20192663</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>webapp</name>
+    <description>GTICS-LAB4-20192663</description>
+>>>>>>> P1
     <properties>
         <java.version>22</java.version>
     </properties>
